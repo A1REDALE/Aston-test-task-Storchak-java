@@ -10,7 +10,7 @@ public class Task3 {
             System.out.print(num + " ");
         }
         for (int num : nums) {
-            if (num % 3 == 0 && num > 0) {
+            if (num % 3 == 0) {
                 System.out.print("\n" + num);
             }
         }
